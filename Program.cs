@@ -16,7 +16,7 @@ namespace эвм7
             char[] a = "bcdfghjlkmnpqrstvwxz".ToCharArray();
             string[] slova = File.OpenText("input.txt").ReadToEnd().Replace("\r\n", " ").Split(' ');
             string[] slova2 = File.OpenText("input.txt").ReadToEnd().Replace("\r\n", " ").Split(' ');
-            int count = 0;
+            int count = 1;
             foreach (var p in slova2)
             {
                 char[] b = p.ToCharArray();
