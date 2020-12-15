@@ -1,0 +1,6 @@
+C:\Users\1\source\repos\с#\эвм7\bin\Debug\эвм7.exe.config
+C:\Users\1\source\repos\с#\эвм7\bin\Debug\эвм7.exe
+C:\Users\1\source\repos\с#\эвм7\bin\Debug\эвм7.pdb
+C:\Users\1\source\repos\с#\эвм7\obj\Debug\эвм7.exe
+C:\Users\1\source\repos\с#\эвм7\obj\Debug\эвм7.pdb
+C:\Users\1\source\repos\с#\эвм7\obj\Debug\эвм7.csprojAssemblyReference.cache
