@@ -16,21 +16,21 @@ namespace эвм7
             char[] a = "bcdfghjlkmnpqrstvwxz".ToCharArray();
             string[] slova = File.OpenText("input.txt").ReadToEnd().Replace("\r\n", " ").Split(' ');
             string[] slova2 = File.OpenText("input.txt").ReadToEnd().Replace("\r\n", " ").Split(' ');
-            int count = 1;
-            foreach (var p in slova2)
-            {
-                char[] b = p.ToCharArray();
-                int count1 = 0;
-                if (p.Length <= 4 && p.Length > 1)
-                {
-                    for (int o = p.Length; o > 0; o--)
-                        if (b[o] > 57)
-                            count1++;
-                    if(count1<=4 && count1!=0)
-                        count++;
-                }        
-            }
-            Console.WriteLine(count);
+            //int count = 1;
+            //foreach (var p in slova2)
+            //{
+            //    char[] b = p.ToCharArray();
+            //    int count1 = 0;
+            //    if (p.Length <= 4 && p.Length > 1)
+            //    {
+            //        for (int o = p.Length; o > 0; o--)
+            //            if (b[o] > 57)
+            //                count1++;
+            //        if(count1<=4 && count1!=0)
+            //            count++;
+            //    }        
+            //}
+            //Console.WriteLine(count);
             foreach (var s in slova)
             {
                 char[] b=s.ToCharArray();
